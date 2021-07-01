@@ -1,0 +1,38 @@
+.pin-component {
+    border: 1px solid black;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.pin-item {
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.btn-component {
+    width: 190px;
+    border: 1px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-item {
+    width: 40px;
+    height: 20px;
+    margin: 2px;
+    text-align: center;
+    color: coral;
+    border-radius: 10%;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.btn-item:hover {
+    background-color: cornflowerblue;
+}
